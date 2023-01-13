@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <script src="codigo.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body>
+  <div class="background-title" id="bg-img">
+    <h1 class="title">Todo</h1>
+    <div id="iconsToggler">
+      <img src="./icon-sun.svg" id="sunIcon">
+      <img src="./icon-moon.svg" id="moonIcon">
+    </div>
+  </div>
+
+  <div class="form_container" id="formContainer">
+    <form id="tasks_form">
+      <input type="checkbox" class="rounded" id="rounded" />
+      <input type="text" name="taskText" id="tasks_input" placeholder="Create a new todo..." autocomplete="off" />
+    </form>
+   </div>
+
+   <div id="tasksContainer">
+    <!--<div class="task draggable elements" draggable="true">
+      <div class="task_circle"></div>
+      <p class="taskEl" draggable="true">Hola Mundo1</p>
+      <div class="delete_btn">X</div>
+    </div>
+
+    <div class="task draggable elements" draggable="true">
+      <div class="task_circle"></div>
+      <p class="taskEl" draggable="true">Hola Mundo2</p>
+      <div class="delete_btn">X</div>
+    </div>
+
+    <div class="task draggable elements" draggable="true">
+      <div class="task_circle"></div>
+      <p class="taskEl" draggable="true">Hola Mundo3</p>
+      <div class="delete_btn">X</div>
+    </div>-->
+   </div>
+
+   <div class="footer" id="footer">
+      <div class="items_left">
+        <span id="num">0</span> items left
+      </div>
+      <div class="items-status">
+        <span class="all" id="active-footer">All</span>
+        <span class="active">Active</span>
+        <span class="completed">Completed</span>      
+      </div>
+      <div class="clear_completed">
+        <span>Clear completed</span>
+      </div>
+   </div>
+
+  <!--<p class="drag">Drag and drop to reorder list</p>-->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/javierarico" target="_blank">Javiera Rico</a>.
+  </div>
+</body>
+</html>
